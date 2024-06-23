@@ -1,0 +1,288 @@
+/* .try {
+    text-align: end;
+    color: pink;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+#huddle {
+    text-align: center;
+    font-size: smaller;
+}
+
+
+
+#text .screen-mockups {
+    max-width: 100%;
+    height: auto;
+    object-position: center;
+}
+
+#text .get:hover {
+    text-align: center;
+} */
+
+/* 
+h1 {
+    text-align: center;
+}
+
+
+
+#main-container #mock-up {
+    float: right;
+}
+
+#huddle {
+    text-align: center;
+    font-size: smaller;
+} */
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.hero .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flexbox;
+}
+
+
+
+
+.cta .button-try-free {
+    background-color: #f06595;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta .button-try-free:hover {
+    background-color: #e05585;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.hero {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.hero .button-get-started {
+    background-color: #f06595;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hero .button-get-started:hover {
+    background-color: #e05585;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat img {
+    height: 30px;
+    margin-bottom: 10px;
+
+
+}
+
+.stat h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.stat p {
+    font-size: 14px;
+    color: #666;
+}
+
+.feature {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-content {
+    width: 45%;
+    margin-right: 40px;
+}
+
+.feature-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.feature-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.feature-image {
+    width: 45%;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cta h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cta .button-get-started {
+    background-color: #f06595;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta .button-get-started:hover {
+    background-color: #e05585;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-content .logo img {
+    height: 30px;
+}
+
+.footer-content p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.footer-content .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content .contact p {
+    margin-bottom: 10px;
+}
+
+.footer-content .social-media {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.footer-content .social-media a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-content .social-media a:hover {
+    color: #e05585;
+}
+
+.footer-content form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content form input {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 10px;
+}
+
+.footer-content form button {
+    background-color: #f06595;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.footer-content form button:hover {
+    background-color: #e05585;
+}
